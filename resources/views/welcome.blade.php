@@ -81,8 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Tomaz Neto Developer <br>
-                    PHP É PARA OS FRACOS NESSA CHITAAAAA!
+                    Tomaz Neto Developer
                 </div>
 
                 <div class="links">
