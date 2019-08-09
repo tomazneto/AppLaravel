@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Verum') }}</title>
+    <title>Verum</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -41,11 +41,11 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Entrar') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('LOGIN') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Registrar') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('REGISTRAR') }}</a>
                                 </li>
                             @endif
                         @else
